@@ -461,7 +461,8 @@ header {
 .form-group {
     background: #e9e9e9;
 }
-.form-group, .form-group select {
+.form-group, 
+.form-group select {
     width: 100%;
     height: 45px;
     background: #e9e9e9;
@@ -474,13 +475,6 @@ header {
     padding: 0 15px;
     box-sizing: border-box;
     border: 1px solid #aaa;
-}
-.form-group select {
-    padding: 0 12px;
-}
-.form-group option .select-head{}
-::placeholder {
-    color: #111;
 }
 .btn-contact {
 	background: #0090a0;
